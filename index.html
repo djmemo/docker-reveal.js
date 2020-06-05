@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="/node_modules/reveal.js/dist/reset.css">
+	<link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css">
+	<link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/black.css" id="theme">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="/node_modules/reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>Slide 1
+				<aside class="notes">
+					Shhh, these are your private notes 📝
+				</aside>
+			</section>
+			<section>Slide 2
+				<aside class="notes">
+					Shhh, these are your private notes 2 📝
+				</aside>
+			</section>
+		</div>
+	</div>
+
+	<script src="/node_modules/reveal.js/dist/reveal.js"></script>
+	<script src="/node_modules/reveal.js/plugin/notes/notes.js"></script>
+	<script src="/node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+	<script src="/node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+	<script>
+		Reveal.initialize({
+			hash: true,
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			dependencies: [
+				{ src: '/socket.io/socket.io.js', async: true },
+				{ src: 'node_modules/reveal-notes-server/client.js', async: true }
+			]
+		});
+	</script>
+</body>
+
+</html>
