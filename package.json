@@ -1,0 +1,16 @@
+{
+  "name": "docker-reveal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reveal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-notes-server": "^0.1.0",
+    "reveal.js": "^4.0.2",
+    "socket.io-client": "^2.3.0"
+  }
+}
