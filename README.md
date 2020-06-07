@@ -11,7 +11,7 @@ docker build --tag reveal.js .
 docker run -d --name=reveal.js -v `$PWD`:/app -p 1947:1947 reveal.js:latest
 ```
 
-## Docker-composes
+## Docker-compose
 ```yml
 version: '3'.
 services:
