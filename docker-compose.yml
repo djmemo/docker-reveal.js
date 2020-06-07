@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  reveal.js:
+    build: .
+    container_name: reveal.js
+    ports:
+      - '1947:1947'
+    volumes:
+      - './:/app'
