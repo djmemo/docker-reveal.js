@@ -25,13 +25,13 @@ services:
 ```
 
 ## Open the presentation
-Open the reveal at the following address:
-    http://localhost:1947
-    or
-    http://IP_LOCAL:1947
+Open the reveal at the following address:  
+>>http://localhost:1947  
+>>or  
+>>http://IP_LOCAL:1947  
 
-A popup will appear for remote control
-For example:
-    http://localhost:1947/notes/9107650607493798
-    or
-    http://IP_LOCAL:1947/notes/9107650607493798
+A popup will appear for remote control  
+For example:  
+>>http://localhost:1947/notes/9107650607493798  
+>>or  
+>>http://IP_LOCAL:1947/notes/9107650607493798  
