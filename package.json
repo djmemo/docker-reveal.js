@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "reveal-notes-server": "^0.1.0",
-    "reveal.js": "^4.0.2",
+    "reveal.js": "^4.3.0",
     "socket.io-client": "^2.3.0"
   }
 }
